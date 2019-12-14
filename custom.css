@@ -336,7 +336,9 @@ body .Select-value-label,
 .user-info-card,
 .notification-item-container,
 .clui-bg-content,
-.home-tuorial-card-title /* title for tutorials on ~, there's a typo here, change when it gets fixed */
+.home-tuorial-card-title, /* title for tutorials on ~, there's a typo here, change when it gets fixed */
+.dropdown-username, /* your username in the hamburger menu */
+.post-title /* post title in explore trending repls */
 {
 	<% if (rainbow == "true") { %>
 	color:#222!important;
@@ -347,7 +349,12 @@ body .Select-value-label,
 .d2h-cntx{
 	background-color:#fff!important;
 }
-p, .user-hover-card-info-card .paper {
+p,
+.user-hover-card-info-card .paper,
+.desc, /* description for repos in run your repos */
+.language, /* repo language in run your repos */
+.language-label /* repl language in explore trending repls */
+{
 	color:var(--darker-text)!important;
 }
 ::-webkit-scrollbar, ::-webkit-scrollbar-corner {
@@ -357,7 +364,9 @@ background-color:var(--dark-bg)!important;
 background-color:var(--main-color)!important;
 border-radius: 5px!important;
 }
-iframe:not(#canny-iframe), .board-repl-embed, .lite-header, .side-nav-options {
+iframe:not(#canny-iframe), .board-repl-embed, .lite-header, .side-nav-options,
+.sidebar-layout-header /* top bar below search your repls */
+{
 border-color:var(--main-color)!important;
 }
 header,
@@ -644,4 +653,8 @@ div.jsx-2072925792:nth-child(2) > div:nth-child(2) > div:nth-child(2),
 .sidebar-layout-header-toggle-bar {background-color: var(--text-color)!important}
 * {
 	scrollbar-color: var(--main-color) var(--dark-bg);
+}
+.jsx-995443416 /* gradient in main page */
+{
+	background: none!important;
 }
