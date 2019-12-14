@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121084867-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-121084867-2');
+</script>
+
+<title>Repl.it Dark Theme - Custom Sitewide Dark Theme for Replit</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Customizable site wide dark theme for Repl.it using Tampermonkey. Your eyes will be thankful."/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap_index.xml" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<style>
+
+body {
+	background-color:#232528;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	color:silver;
+	font-size:3vw;
+	margin:0;
+	padding:0;
+	height:100%;
+  min-height:100%;
+	position:relative;
+}
+a {
+	color:#afafaf;
+}
+h1 {
+	/* font-size:8vw; */
+	text-align:center;
+}
+h2 {
+	text-align: center;
+}
+h3 {
+	text-align:center;
+}
+#instructions {
+	margin: 0 auto;
+	width: 90vw;
+	max-width: 90vw;
+/* 	min-width: 50px; */
+	/* left: 25%;
+	right: 25%; */
+/* 	position: absolute; */
+	padding-bottom: 50px
+}
+
+#container {
+	min-height:100%;
+}
+footer {
+	position: fixed;
+	bottom:0;
+	width:100%;
+	background:#393c42;
+	text-align:center;
+	padding:8px 0;
+}
+li {
+	line-height: 200%
+}
+
+</style>
+</head>
+<body>
+<div id="container">
+	<h1>Repl.it Dark Theme</h1>
+	<div id="instructions">
+		<h2>How to download:</h2>
+		<ol>
+		<% if (browser == "firefox") { %>
+			<li>Download the <a href="https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/" target="_blank">Tampermonkey</a> Firefox extension.</li>
+		<% } else { %>
+			<li>Download the <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank">Tampermonkey</a> Chrome extension</li>
+		<% } %>
+		<li><a href="/theme.user.js" target="_blank">Click here</a> and press install or <a href="/themes">use another theme</a></li>
+		<li>Upvote my <a href="https://repl.it/talk/Dark/Theme/14281">Repl Talk post</a></li>
+		<li>Done!</li>
+		</ol>
+	</div>
+</div>
+<footer>
+	Created by <a href="https://www.matdoes.dev">mat</a>
+</footer>
+</body>

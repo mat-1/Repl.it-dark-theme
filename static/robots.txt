@@ -1,0 +1,3 @@
+Sitemap: https://darktheme.tk/sitemap.xml
+User-agent: * 
+Disallow: /proxy
