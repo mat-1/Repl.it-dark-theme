@@ -116,7 +116,10 @@ div.jsx-3451078682.dynamic-header-nav-right div div,
 .paper-action, /* recently edited in main page */
 .sidebar-layout-nav,
 .sidebar-layout-header,
-.sidebar-layout-nav-header-blanket
+.sidebar-layout-nav-header-blanket,
+.new-repl, .root, /* background in the new repl popup */
+.menu /* languages/repos in create new repl/import from github */
+
 {
 	<% if (rainbow == "true") { %>
 		animation: rainbowColor 5s infinite linear!important;
@@ -208,7 +211,9 @@ a.jsx-2449423843:hover,
 .dynamic-header-dropdown-option-active,
 .dynamic-header-dropdown-option:hover,
 .dashboard-search-option-focused,
-.dashboard-search-option-focused .dashboard-search-option-label
+.dashboard-search-option-focused .dashboard-search-option-label,
+button.block.jsx-133885951, /* create new repl / import from github */
+.active /* selected lang/repo in repl creation */
 {
 	<% if (rainbow == "true") { %>
 	animation: rainbowColor 4s infinite linear!important;
@@ -218,7 +223,10 @@ a.jsx-2449423843:hover,
 }
 svg.add-folder-icon-svg rect,
 .talk-icon-fill,
-.add-file-icon-svg .cls-2 {
+.add-file-icon-svg .cls-2,
+.globe-svg-icon g .cls-2 /* privacy globe */
+.lock-svg-icon g .cls-1, .lock-svg-icon g .cls-3 /* privacy lock */
+{
 	fill:var(--main-color)!important;
 }
 svg.add-folder-icon-svg path,
@@ -338,7 +346,9 @@ body .Select-value-label,
 .clui-bg-content,
 .home-tuorial-card-title, /* title for tutorials on ~, there's a typo here, change when it gets fixed */
 .dropdown-username, /* your username in the hamburger menu */
-.post-title /* post title in explore trending repls */
+.post-title, /* post title in explore trending repls */
+button.block.jsx-3677849883  /* create new repl / import from github */
+
 {
 	<% if (rainbow == "true") { %>
 	color:#222!important;
@@ -365,7 +375,8 @@ background-color:var(--main-color)!important;
 border-radius: 5px!important;
 }
 iframe:not(#canny-iframe), .board-repl-embed, .lite-header, .side-nav-options,
-.sidebar-layout-header /* top bar below search your repls */
+.sidebar-layout-header, /* top bar below search your repls */
+.button-base-kind-secondary /* cancel button */
 {
 border-color:var(--main-color)!important;
 }
@@ -427,7 +438,9 @@ margin-top:0!important;
 color:var(--unupvoted)!important;
 }
 .button-base-kind-confirm {
-border-color:var(--confirm-color)!important;
+	border-color:var(--confirm-color)!important;
+	background-color: var(--confirm-color)!important;
+	color: var(--dark-bg)!important;
 }
 .profile-hacker-label {
 animation:rainbowColor 5s infinite linear!important;
