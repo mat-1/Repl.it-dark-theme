@@ -1,4 +1,4 @@
-# Repl.it-dark-theme
+# Repl.it dark theme
 Site-wide dark theme for Repl.it
 
 
