@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Repl.it Dark Theme
 // @namespace https://repl.it/
-// @version 2.4.9
+// @version 2.4.11
 // @description Custom Repl.it dark themes
 // @author mat
 // @match http*://*.repl.it/*

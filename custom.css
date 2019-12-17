@@ -118,8 +118,9 @@ div.jsx-3451078682.dynamic-header-nav-right div div,
 .sidebar-layout-header,
 .sidebar-layout-nav-header-blanket,
 .new-repl, .root, /* background in the new repl popup */
-.menu /* languages/repos in create new repl/import from github */
-
+.menu, /* languages/repos in create new repl/import from github */
+.sentry-error-embed,
+.clui-bg-blanket /* background in hey, lets get started! */
 {
 	<% if (rainbow == "true") { %>
 		animation: rainbowColor 5s infinite linear!important;
