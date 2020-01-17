@@ -214,7 +214,7 @@ a.jsx-2449423843:hover,
 .dashboard-search-option-focused,
 .dashboard-search-option-focused .dashboard-search-option-label,
 button.block.jsx-133885951, /* create new repl / import from github */
-.active, /* selected lang/repo in repl creation */
+.active:not(a), /* selected lang/repo in repl creation */
 a.jsx-803695828 /* some buttons */
 {
 	<% if (rainbow == "true") { %>
