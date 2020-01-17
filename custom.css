@@ -214,7 +214,8 @@ a.jsx-2449423843:hover,
 .dashboard-search-option-focused,
 .dashboard-search-option-focused .dashboard-search-option-label,
 button.block.jsx-133885951, /* create new repl / import from github */
-.active /* selected lang/repo in repl creation */
+.active, /* selected lang/repo in repl creation */
+a.jsx-803695828 /* some buttons */
 {
 	<% if (rainbow == "true") { %>
 	animation: rainbowColor 4s infinite linear!important;
@@ -348,8 +349,8 @@ body .Select-value-label,
 .home-tuorial-card-title, /* title for tutorials on ~, there's a typo here, change when it gets fixed */
 .dropdown-username, /* your username in the hamburger menu */
 .post-title, /* post title in explore trending repls */
-button.block.jsx-3677849883  /* create new repl / import from github */
-
+button.block.jsx-3677849883, /* create new repl / import from github */
+.active
 {
 	<% if (rainbow == "true") { %>
 	color:#222!important;
