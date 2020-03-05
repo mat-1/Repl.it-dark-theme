@@ -11,6 +11,7 @@
 	--upvote: <% if (upvote == "") { %>rgba(255, 255, 255, 15%)<% } else { %>#<%= upvote %><% } %>;
 	--upvoted: <% if (upvote == "") { %>rgba(255, 255, 255, 90%)<% } else { %>#<%= upvote %><% } %>;
 	--announcements: #<%= announcements %>;
+	--blue-text: #4183c4
 }
 
 body,
@@ -658,7 +659,7 @@ div.jsx-2072925792:nth-child(2) > div:nth-child(2) > div:nth-child(2),
 .jsx-4044439717, /* Users in notifications */
 .notification-item-post-title /* Notification post title */
 { /* Blue links */
-	color: #4183c4 !important;
+	color: var(--blue-text) !important;
 }
 .close-icon-svg g line, .private-icon-container {
 	stroke: var(--text-color)!important;
@@ -674,4 +675,14 @@ div.jsx-2072925792:nth-child(2) > div:nth-child(2) > div:nth-child(2),
 .jsx-995443416 /* gradient in main page */
 {
 	background: none!important;
+}
+.post-answered-by-card .user-label span {
+	color: var(--blue-text)!important;
+}
+
+.comment-detail-is-answer {
+	background-color: rgba(180,230,180, 0.2)!important;
+}
+.comment-detail-is-answer .rendered-markdown {
+	background-color: initial!important;
 }
