@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Repl.it Dark Theme
 // @namespace https://repl.it/
-// @version 2.4.13
+// @version 2.4.14
 // @description Custom Repl.it dark themes
 // @author mat
 // @match http*://*.repl.it/*
@@ -31,8 +31,5 @@ var loadDarktheme = (function() {
 	console.log('Loaded @mat1\'s dark theme 👌')
 });
 
-try {
-	loadDarktheme()
-} catch(e) {
-	window.addEventListener('load', loadDarktheme, false); // if loading failed, wait until the page fully loads and try again
-}
+loadDarktheme()
+window.addEventListener('load', loadDarktheme, false); // if loading failed, wait until the page fully loads and try again

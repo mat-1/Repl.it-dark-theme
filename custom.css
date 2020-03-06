@@ -218,7 +218,8 @@ button.block.jsx-133885951, /* create new repl / import from github */
 .active:not(a), /* selected lang/repo in repl creation */
 a.jsx-803695828, /* some buttons */
 .sc-iyvyFf, /* graphql schema docs */
-.doc-category-item /* graphql schema docs item */
+.doc-category-item, /* graphql schema docs item */
+.post-settings /* moderator post settings */
 {
 	<% if (rainbow == "true") { %>
 	animation: rainbowColor 4s infinite linear!important;
