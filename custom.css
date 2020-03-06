@@ -354,7 +354,8 @@ body .Select-value-label,
 .dropdown-username, /* your username in the hamburger menu */
 .post-title, /* post title in explore trending repls */
 button.block.jsx-3677849883, /* create new repl / import from github */
-.active
+.active,
+.paper
 {
 	<% if (rainbow == "true") { %>
 	color:#222!important;
