@@ -355,7 +355,8 @@ body .Select-value-label,
 .post-title, /* post title in explore trending repls */
 button.block.jsx-3677849883, /* create new repl / import from github */
 .active,
-.paper
+.paper,
+.Select-value .Select-value-label /* change board */
 {
 	<% if (rainbow == "true") { %>
 	color:#222!important;
@@ -383,7 +384,8 @@ border-radius: 5px!important;
 }
 iframe:not(#canny-iframe), .board-repl-embed, .lite-header, .side-nav-options,
 .sidebar-layout-header, /* top bar below search your repls */
-.button-base-kind-secondary /* cancel button */
+.button-base-kind-secondary, /* cancel button */
+.board-post-list-item-recent-comments-list /* "latest comments" in posts list */
 {
 border-color:var(--main-color)!important;
 }
