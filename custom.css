@@ -121,7 +121,10 @@ div.jsx-3451078682.dynamic-header-nav-right div div,
 .new-repl, .root, /* background in the new repl popup */
 .menu, /* languages/repos in create new repl/import from github */
 .sentry-error-embed,
-.clui-bg-blanket /* background in hey, lets get started! */
+.clui-bg-blanket, /* background in hey, lets get started! */
+.markdown /* documentation pages */
+.gitSidebar, /* git sidebar gui */
+.sidebar /* main openable sidebar */
 {
 	<% if (rainbow == "true") { %>
 		animation: rainbowColor 5s infinite linear!important;
@@ -219,7 +222,8 @@ button.block.jsx-133885951, /* create new repl / import from github */
 a.jsx-803695828, /* some buttons */
 .sc-iyvyFf, /* graphql schema docs */
 .doc-category-item, /* graphql schema docs item */
-.post-settings /* moderator post settings */
+.post-settings, /* moderator post settings */
+.primary /* new repl button on openable sidebar */
 {
 	<% if (rainbow == "true") { %>
 	animation: rainbowColor 4s infinite linear!important;
@@ -385,7 +389,8 @@ border-radius: 5px!important;
 iframe:not(#canny-iframe), .board-repl-embed, .lite-header, .side-nav-options,
 .sidebar-layout-header, /* top bar below search your repls */
 .button-base-kind-secondary, /* cancel button */
-.board-post-list-item-recent-comments-list /* "latest comments" in posts list */
+.board-post-list-item-recent-comments-list, /* "latest comments" in posts list */
+.primary /* new repl button on openable sidebar */
 {
 border-color:var(--main-color)!important;
 }
